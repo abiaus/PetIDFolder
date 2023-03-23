@@ -10,7 +10,7 @@ from django.contrib.auth import views as auth_views
 app_name = 'petApp'  # Asegúrate de que esta línea esté presente
 
 urlpatterns = [
-    path('signup/', views.signup, name='signup'),
+  python manage.py  path('signup/', views.signup, name='signup'),
     path('login/', views.login_view, name='login'),
     path('accounts/login/', views.login_view, name='login'),
     path('logout/', views.logout_view, name='logout'),
