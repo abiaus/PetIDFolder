@@ -19,6 +19,7 @@ urlpatterns = [
     path('admin/dashboard/', views.admin_dashboard, name='admin_dashboard'),
     path('home/', views.home, name='home'),
     path('', views.home, name='home'),
+    path('index.html', views.home, name='home'),
     path('pet/<str:pet_uuid>/edit_pet_visibility/', views.edit_pet_visibility, name='edit_pet_visibility'),
     path('user_profile/', views.user_profile, name='user_profile'),
     path('edit_user_email/', views.edit_user_email, name='edit_user_email'),
